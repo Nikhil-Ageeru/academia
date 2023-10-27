@@ -1,0 +1,421 @@
+*  {
+    font-family: Segoe UI;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    font-size: 0.6em;
+}
+
+.header-mid-block>div {
+    display: inline-block;
+
+}
+
+.bi-clock+div {
+    margin-right: 20px;
+}
+
+.bi-clock,
+.bi-telephone {
+    font-size: 2em;
+}
+
+.Home {
+    color: darkcyan;
+}
+
+header span[class*="bi"] {
+    padding: 10px 15px 10px 15px;
+    font-size: 1.5em;
+    color: darkcyan;
+    background-color: rgba(255, 255, 255,0.4);
+    border-radius: 50%;
+}
+
+body {
+    background-image: url(images/colorlib/colorlibBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.mainNav {
+    display: flex;
+    background-color: rgb(230, 230, 230, 0.3);
+    justify-content: space-between;
+    color: white;
+    margin-top: 30px;
+}
+
+.mainNav1 {
+    display: flex;
+}
+
+.mainNav1 div {
+    margin-right: 10px;
+    padding: 25px;
+}
+
+.certificate {
+    background-color: darkcyan;
+    padding: 25px;
+}
+
+main {
+    padding: 100px;
+    color: white;
+}
+
+main div:first-child {
+    font-weight: bold;
+    color: rgb(241, 241, 241);
+}
+
+main div:nth-child(2) {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+main button {
+    margin: 30px 0px 40px 0px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+#getStarted-btn {
+    color: white;
+    background-color: darkcyan;
+}
+
+#viewCourse {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+aside {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+
+.asideCards {
+    padding: 20px;
+}
+
+.asideTilte {
+    color: darkcyan;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.asideMainTitle {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+aside img {
+    margin-top: 150px;
+}
+
+aside span[class|="bi"] {
+
+    color: darkcyan;
+    padding-right: 20px;
+    font-size: 4em;
+
+}
+
+.cardTitle {
+    font-size: 1.5em;
+    color: darkcyan;
+}
+
+.asideDesc {
+    color: grey;
+}
+
+.asideCards div {
+    margin-top: 15px;
+}
+
+.asideCards:hover span {
+    background-color: darkcyan;
+    color: white;
+}
+
+.asideCards:hover div {
+    background-color: darkcyan;
+    color: white;
+}
+
+.asideCards:hover {
+    background-color: darkcyan;
+    color: white;
+}
+
+.section2 {
+    color: white;
+    background-image: url("https://th.bing.com/th/id/OIP.hKZPdWzNZFP0MmAmLlrj5AHaE8?pid=ImgDet&rs=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 100px 150px 0px 150px;
+}
+
+.section2Card span[class*="bi"] {
+    font-size: 4em;
+    float: left;
+}
+
+.section2Title {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 1px solid grey;
+}
+
+.section2Card div {
+    font-size: 1.5em;
+}
+
+.section3 {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+
+}
+
+.heading3 {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.section4 {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section4Cards {
+    width: 300px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.bi-pc-display-horizontal {
+    font-size: 3em;
+    background-color: darkcyan;
+    color: white;
+    padding: 20px;
+    float: left;
+    margin: 15px 10px 90px 0px;
+    border-radius: 1.5em;
+
+}
+
+.section4heading {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.section4Rating {
+    color: darkcyan;
+}
+
+.section4Price {
+    color: darkcyan;
+    font-weight: bold;
+    margin: 40px 0px 20px 0px;
+    text-align: center;
+
+}
+
+.section4 button {
+    color: darkcyan;
+    width: 100%;
+    border-color: darkcyan;
+    padding: 10px 0px 10px 0px;
+}
+
+.section4 button:hover {
+    color: white;
+    background-color: darkcyan;
+
+    padding: 10px 0px 10px 0px;
+}
+
+.section5 div {
+    height: 3px;
+    width: 40px;
+    margin: 10px;
+    color: transparent;
+    background-color: darkcyan;
+}
+
+.section5 {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#slide2 {
+    background-color: grey;
+}
+
+.section6 {
+    text-align: center;
+    background-color: white;
+}
+
+.section7 {
+    text-align: center;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.bi-pc-display {
+    color: darkcyan;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 1px grey;
+    margin-bottom: 20px;
+}
+
+.section7>div {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5px;
+    box-shadow: 0px 0px 20px gainsboro;
+    border-radius: 10px;
+}
+
+.section7 button {
+    margin: 20px;
+    color: white;
+    background-color: darkcyan;
+    border-radius: 10px;
+}
+
+.section7>div:hover :nth-child(1n) {
+    color: white;
+    background-color: darkcyan;
+}
+
+.section7>div:hover {
+    color: white;
+    background-color: darkcyan;
+}
+
+.userCmts span {
+    color: darkcyan;
+}
+.userCmts{
+    text-align: justify     ;
+
+}
+.userCmts+div{
+    font-size: 1.5em;
+    margin: 20px 0px 20px 0px;
+}
+.section8 {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 0px;
+}
+.section8>div{
+    padding: none;
+    box-shadow: 0px 0px 20px gainsboro;
+    padding : 10px;
+    width: 357px;
+    border-radius: 10px;
+}
+.section8desc {
+    color: gray;
+}
+.section9{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    justify-content: space-around;
+    padding-bottom: 150px;
+}
+.section9Card{
+    width: 250px;
+    box-shadow: 0px 0px 20px gainsboro;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+.section9Desc{
+    color: gray;
+    margin: 20px 0px 30px 0px;
+    
+}
+.section9 button{
+   color: darkcyan;
+   font-weight: bold;
+   padding: 10px 20px 10px 20px;
+   border: 1px solid darkcyan;
+}
+.section9Price{
+    color: darkcyan;
+    font-size: 3em;
+    font-weight: bold;
+
+}
+.section10{
+    display: flex;
+    background-color: darkcyan;
+    padding: 50px;
+    color: white;
+    justify-content: space-around;
+}
+
+.section10>div{
+    width: 400px;
+}
+ .section10card1{
+font-weight: bold;
+font-size: 2em;
+}
+
+.section10Desc{
+    color: gainsboro;
+    font-size: 0.6em;   
+}
+.section10 input
+
+{
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: darkcyan;
+    color: white;
+}
